@@ -1,0 +1,27 @@
+{
+    name: "mocha-bamboo-reporter",
+    version: "1.0.0",
+    description: "A mocha reporter to allow Atlassian Bamboo to parse results",
+    keywords: ["mocha", "reporter", "bamboo", "ci"],
+    licenses: [{
+        type: "Apache 2.0",
+        url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }],
+    author: {
+        name: "Issac Goldstand",
+        email: "margol@beamartyr.net",
+        web: "http://www.beamartyr.net"
+    },
+    repository: {
+        type: "git",
+        url: "git://github.com/issacg/mocha-bamboo.git"
+    },
+    main: "lib/bamboo.js",
+    engines: {"node": ">=0.10.0"},
+    directories: {
+        "lib": "./lib"
+    },
+    dependencies: {
+        "mocha": "1.9.0"
+    }
+}
