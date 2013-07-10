@@ -1,6 +1,6 @@
 {
     "name": "mocha-bamboo-reporter",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A mocha reporter to allow Atlassian Bamboo to parse results",
     "keywords": ["mocha", "reporter", "bamboo", "ci"],
     "licenses": [{
