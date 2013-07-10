@@ -29,10 +29,8 @@ Then, in your package.json file, add a devDependency for "mocha-bamboo-reporter"
     
     "scripts": {
         ...
-        "bamboo": "node node_modules/mocha/bin/mocha -R mocha-bamboo-reporter > mocha.json"
+        "bamboo": "node node_modules/mocha/bin/mocha -R mocha-bamboo-reporter"
     }
     
 In Bamboo, create an "npm task" with command `run-script bamboo`
 Then, in Bamboo add a "Parse mocha results" task which runs afterwards to parse the results from mocha
-
-If you don't do a full checkout on each build, make sure you add a task to delete mocha.json BEFORE the `npm run-script bamboo` task (I use a script task that runs `rm -f mocha.json`)
