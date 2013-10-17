@@ -8,7 +8,7 @@ Designed to integrate with [Atlassian Bamboo's Node.js plugin](https://marketpla
 Usage
 =====
 
-    mocha -R mocha-bamboo-reporter > mocha.json
+    mocha -R mocha-bamboo-reporter
     
 Integrating mocha & bamboo with mocha-bamboo-reporter
 =====================================================
