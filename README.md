@@ -5,6 +5,8 @@ Bamboo Reporter for Mocha on Node.js
 
 Designed to integrate with [Atlassian Bamboo's Node.js plugin](https://marketplace.atlassian.com/plugins/com.atlassian.bamboo.plugins.bamboo-nodejs-plugin)
 
+IMPORTANT: The current official build of Atlassian's Bamboo Node.js plugin is missing the required support - you must [use this link] (https://bitbucket.org/issacg/bamboo-nodejs-plugin/downloads#download-190726) to install the correct version.
+
 Usage
 =====
 
