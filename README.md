@@ -1,5 +1,5 @@
-mocha-bamboo
-============
+mocha-bamboo-reporter
+=====================
 
 Bamboo Reporter for Mocha on Node.js
 
