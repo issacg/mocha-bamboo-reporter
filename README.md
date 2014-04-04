@@ -42,3 +42,22 @@ To run your Mocha tests without modifying your package.json you can simply do th
 * Add a "npm" task with command `install mocha-bamboo-reporter`
 * Add a "Node.js" task with script `node_modules/mocha/bin/mocha` and arguments `--reporter mocha-bamboo-reporter`, along with any other arguments you want to pass to Mocha
 * You'll still need to run a "Parse mocha results" task, and ensure you don't use an old mocha.json
+* 
+
+## Grunt
+
+Using mocha-bamboo-reporter in Grunt to generate the mocha.json report.
+
+  Gruntfile.js
+  
+  ...
+  mocha: {
+    test: {
+      src: ['src/test/frontend/*.html'],
+      options: {
+        run: false, //run in PhantomJS
+        reporter: './node_modules/mocha-bamboo-reporter'
+      },
+      dest: 'target/surefire-reports/mocha.json',
+    }
+  },
