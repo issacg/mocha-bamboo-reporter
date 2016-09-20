@@ -42,4 +42,5 @@ To run your Mocha tests without modifying your package.json you can simply do th
 * Add a "npm" task with command `install mocha-bamboo-reporter`
 * Add a "Node.js" task with script `node_modules/mocha/bin/mocha` and arguments `--reporter mocha-bamboo-reporter`, along with any other arguments you want to pass to Mocha
 * To overwrite default output to mocha.json in current directory, add option `--reporter-options output=/path/to/output.json`
+* To output to standard output, add option `--reporter-options output=-`
 * You'll still need to run a "Parse mocha results" task, and ensure you don't use an old mocha.json
