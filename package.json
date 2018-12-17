@@ -30,7 +30,7 @@
   "directories": {
     "lib": "./lib"
   },
-  "dependencies": {
+  "peerDependencies": {
     "mocha": ">=1.8.1"
   }
 }
